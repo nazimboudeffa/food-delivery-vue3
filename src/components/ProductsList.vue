@@ -1,28 +1,26 @@
 <template>
-        <div id='products' class="container">
-     <h1 class="title">
-      The best pizzeria ever
-     </h1>
-     <div class="desc">
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu
+    <div id='products' class="container">
+    <h1 class="title">
+        The best pizzeria ever
+    </h1>
+    <div class="desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcu
         in pretium molestie. Interdum et malesuada fames acme. Lorem ipsum dolor
         sit amet, consectetur adipiscing elit.
-     </div>
-     <div class="wrapper">
-
-        <PizzaCard />
-
-     </div>
+    </div>
+    <div class="wrapper">
+        <ProductCard />
+    </div>
     </div>
 </template>
 
 <script>
-import PizzaCard from './PizzaCard.vue'
+import ProductCard from './ProductCard.vue'
 
 export default {
-  name: 'PizzaList',
+  name: 'ProductsList',
   components: {
-    PizzaCard
+    ProductCard
   }
 }
 </script>

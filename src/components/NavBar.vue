@@ -6,29 +6,27 @@
       </div>
       <div class="texts">
        <div class="text">ORDER NOW!</div>
-       <div class="text">0540925082</div>
+       <div class="text">5553001</div>
       </div>
      </div>
      <div class="item">
       <ul class="list">
             <li class="listItem">
-             Home page
+                <router-link to="/">Home</router-link>
             </li>
 
-       <a>
-        <li class="listItem">
-            Products
-        </li>
-       </a>
+            <li class="listItem">
+                <router-link to="/products">Products</router-link>
+            </li>
 
-       <img src='/images/logo.png' alt='' width='180' height='100'/>
-     
-       <li class="listItem">
-       Blogs
-       </li>
-        <li class="listItem">
-            Contact
-        </li>
+            <img src='/images/logo.png' alt='' width='180' height='100'/>
+            
+            <li class="listItem">
+                Blogs
+            </li>
+            <li class="listItem">
+                Contact
+            </li>
       </ul>
      </div>
 

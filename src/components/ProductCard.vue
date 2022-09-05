@@ -4,7 +4,7 @@
         <img src="images/three-cheese.png" alt='' height='300' width='300'/>
 
         <h1 class="title">{{product.title}} </h1>
-        <span class="price">{{product.price}} DA</span>
+        <span class="price">{{product.price}} $</span>
         <div class="desc">{{product.desc}}</div>
 
     </div>
@@ -19,14 +19,14 @@ export default {
                 id: '1',
                 image: 'pizza',
                 title: 'Pizza',
-                price: '1000',
+                price: '10',
                 desc: 'Lorem ipsum'
             },
             {
                 id: '2',
                 image: 'pizza',
                 title: 'Burger',
-                price: '1000',
+                price: '10',
                 desc: 'Lorem ipsum'
             }
         ]

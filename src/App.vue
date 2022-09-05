@@ -1,20 +1,20 @@
 <template>
-  <NavBar />
-  <PizzaList />
+  <header>
+    <NavBar />
+  </header>  
+  <router-view></router-view>
+  <footer>
+    <FooterSection />
+  </footer>
 </template>
-
 <script>
 import NavBar from './components/NavBar.vue'
-import PizzaList from './components/PizzaList.vue'
+import FooterSection from './components/FooterSection.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBar, PizzaList
+    NavBar, FooterSection
   }
 }
 </script>
-
-<style>
-
-</style>
