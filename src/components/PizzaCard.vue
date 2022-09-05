@@ -1,7 +1,7 @@
 <template>
     <div class="container" v-for="product in products" :key="product.id">
 
-        <img src="images/pizza.png" alt='' height='300' width='300'/>
+        <img src="images/three-cheese.png" alt='' height='300' width='300'/>
 
         <h1 class="title">{{product.title}} </h1>
         <span class="price">{{product.price}} DA</span>
