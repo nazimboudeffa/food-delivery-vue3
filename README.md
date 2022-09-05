@@ -1,5 +1,7 @@
 # delivery-food-vue3
 
+This is a rewrite in VueJS of the original project in Next https://github.com/amarouldhamadouche/food-delivery-website
+
 ## Project setup
 ```
 npm install
