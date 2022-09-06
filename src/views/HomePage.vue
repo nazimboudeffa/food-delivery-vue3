@@ -6,10 +6,11 @@ import HeroSection from '@/components/HeroSection.vue'
 
 export default {
     name: 'HomePage',
-    components: HeroSection
+    components: {
+        HeroSection
+    }
 }
 </script>
-
 <style scoped>
 
 </style>

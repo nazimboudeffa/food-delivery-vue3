@@ -6,7 +6,9 @@ import ProductsList from '@/components/ProductsList.vue'
 
 export default {
     name: 'ProductsPage',
-    components: ProductsList
+    components: {
+        ProductsList
+    }
 }
 </script>
 <style scoped>
