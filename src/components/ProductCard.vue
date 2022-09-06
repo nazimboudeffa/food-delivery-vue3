@@ -1,7 +1,7 @@
 <template>
     <div class="container" v-for="product in products" :key="product.id">
 
-        <img src="images/three-cheese.png" alt='' height='300' width='300'/>
+        <img :src="require(`@/assets/images/${product.image}.png`)" alt='' height='300' width='300'/>
 
         <h1 class="title">{{product.title}} </h1>
         <span class="price">{{product.price}} $</span>
@@ -17,14 +17,14 @@ export default {
         products: [
             {
                 id: '1',
-                image: 'pizza',
+                image: 'three-cheese',
                 title: 'Pizza',
                 price: '10',
                 desc: 'Lorem ipsum'
             },
             {
                 id: '2',
-                image: 'pizza',
+                image: 'hamburger',
                 title: 'Burger',
                 price: '10',
                 desc: 'Lorem ipsum'

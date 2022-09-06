@@ -2,7 +2,7 @@
     <div class="container">
      <div class="item">
       <div class="img">
-       <img src = '/images/telephone.png' alt='' height='32' width="32"/>
+       <img src = '@/assets/images/telephone.png' alt='' height='32' width="32"/>
       </div>
       <div class="texts">
        <div class="text">ORDER NOW!</div>
@@ -19,7 +19,7 @@
                 <router-link to="/products">Products</router-link>
             </li>
 
-            <img src='/images/logo.png' alt='' width='180' height='100'/>
+            <img src='@/assets/images/logo.png' alt='' width='180' height='100'/>
             
             <li class="listItem">
                 Blogs
@@ -31,7 +31,7 @@
      </div>
 
      <div class="item">
-      <img src='/images/cart.png' alt='' width='30' height='30'/>
+      <img src='@/assets/images/cart.png' alt='' width='30' height='30'/>
        <div class="counter">0 </div>
      </div>
 
